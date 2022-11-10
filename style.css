@@ -1,0 +1,16 @@
+body {
+    background-color: #ffeeff;
+    border-radius: 10%;
+    animation: colorBackground 7s infinite;
+    -webkit-animation: colorBackground 2s infinite;
+   }
+   @keyframes colorBackground {
+    20% {
+     background-color: #FF3300;
+     color: #FF3300
+    }
+    20% {
+     background-color: #dceaa8;
+     color: #ffffff
+    }
+}
